@@ -15,6 +15,7 @@ bool M5ModuleLLM::begin(Stream* serialPort)
     audio.init(&msg);
     tts.init(&msg);
     melotts.init(&msg);
+    exttts.init(&msg);
     kws.init(&msg);
     asr.init(&msg);
     yolo.init(&msg);
